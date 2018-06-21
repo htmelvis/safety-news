@@ -1,0 +1,1 @@
+webpackHotUpdate(0,{"./client/js/app.js":function(e,t,n){"use strict";var d=l(n("./node_modules/react/index.js"));function l(e){return e&&e.__esModule?e:{default:e}}l(n("./node_modules/react-dom/index.js")).default.render(d.default.createElement(function(){return d.default.createElement("div",null,"Hello, World!")},null),document.getElementById("root"))}});
