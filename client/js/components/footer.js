@@ -2,7 +2,9 @@ import React from 'react';
 
 const Nav = (props) => (
   <footer className="footer">
-    <p>Copyright &copy;2018</p>
+    <div className="container">
+      <p>Copyright &copy;2018</p>
+    </div>
   </footer>
 );
 

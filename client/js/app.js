@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import axios from 'axios';
 import AppContainer from './containers/app-container';
 import NewsContainer from './containers/news-container';
+import '../stylus/main.styl';
 
 const Loader = () => (
   <div className="Loader">LOADING...</div>
