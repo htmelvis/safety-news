@@ -1,1 +1,0 @@
-webpackHotUpdate(0,{"./client/js/containers/news-container.js":function(e,n,t){"use strict";!function(e){e&&e.__esModule}(t("./node_modules/react/index.js"))}});

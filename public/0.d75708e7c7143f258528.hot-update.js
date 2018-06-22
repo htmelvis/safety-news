@@ -1,1 +1,0 @@
-webpackHotUpdate(0,{"./client/js/containers/app-container.js":function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a=function(e){return e&&e.__esModule?e:{default:e}}(n("./node_modules/react/index.js"));t.default=function(e){return a.default.createElement("div",{className:"application container"},e.children)}}});

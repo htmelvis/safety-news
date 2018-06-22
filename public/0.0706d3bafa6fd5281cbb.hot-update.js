@@ -1,1 +1,0 @@
-webpackHotUpdate(0,{"./client/js/containers/news-container.js":function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var a=function(e){return e&&e.__esModule?e:{default:e}}(t("./node_modules/react/index.js"));n.default=function(e){return a.default.createElement("div",{className:"news-container container"})}}});
