@@ -8,8 +8,8 @@
     "watch": "webpack --watch",
     "build": "webpack -p",
     "build:dev": "webpack -d",
-    "dev": "NODE_ENV=development webpack --watch & nodemon server.js --exec babel-node",
-    "start": "NODE_ENV=development webpack --watch & nodemon server.js --exec babel-node"
+    "dev": "NODE_ENV=development webpack --watch & nodemon server/server.js --exec babel-node",
+    "start": "NODE_ENV=development webpack --watch & nodemon server/server.js --exec babel-node"
   },
   "author": "",
   "license": "ISC",
