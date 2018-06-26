@@ -17,7 +17,6 @@ class App extends React.Component {
   }
   componentDidMount(){
     axios.get('https://jsonplaceholder.typicode.com/posts').then((res) => {
-      console.log(res);
       this.setState({stories: res.data, isLoaded: true });
     })
   }

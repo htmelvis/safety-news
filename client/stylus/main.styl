@@ -1,4 +1,17 @@
 $navy = #002D5C;
+h1 > a {
+  color: $navy;
+  text-transform: capitalize;
+  transition: all .2s;
+  &:hover {
+    &:after {
+      content: ' »'  
+    }  
+  }
+  &:visited {
+    color: #e0e0e0
+  }
+}
 .navigation {
     background: #f4f5f6;
     border-bottom: .1rem solid #d1d1d1;
@@ -54,9 +67,64 @@ $navy = #002D5C;
       text-decoration: underline;
       color: #000;
       font-size: .8em;
+      line-height: 1.2em;
+      transition: all .3s;
+      border-radius: 2px;
+
+      &.tag {
+        color: $navy;
+        background: #f3f3f3;
+        text-decoration: none;
+      }
+
+      &:hover {
+        color: $navy;
+        background-color:#eee;
+        text-decoration: none; 
+      }
     }
   }    
 }
 .container {
-  max-width: 90rem;  
+  max-width: 90rem; 
+  &.news-container {
+    padding-top: 7rem; 
+  } 
+}
+.page-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #ccc;
+  margin-bottom: .4em;
+}
+.button {
+  &.button-outline {
+    &.sort-control {
+      margin-right: 1em;
+      color: $navy;
+      border-color: $navy;
+      height: 2.8rem;
+      letter-spacing: .1rem;
+      margin-bottom: 0;
+      line-height: 2.8rem;
+      &.button-active {
+        background: $navy;
+        color: white;  
+      }
+    }  
+  }
+}
+.row + hr {
+  margin: 2rem 0;  
+}
+.footer {
+  width: 100%;
+  padding: 2rem;
+  background: $navy;
+  color: white;
+  font-size: 1.1rem;
+  text-align: center; 
+  p {
+    margin: 0;
+  }
 }
